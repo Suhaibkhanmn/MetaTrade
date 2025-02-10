@@ -8,7 +8,7 @@ Ethereum-based NFT marketplace where users can securely sell their digital asset
 
 ![NFTMarketplaceTree](./workflow-images/tree.png)
 
--   [Checkout the complete workflow](./test/NftMarketplace.tree)
+- [Checkout the complete workflow](./test/NftMarketplace.tree)
 
 ## Test
 
@@ -30,8 +30,8 @@ forge test --rpc-url <RPC_URL>
 
 ## Deployment
 
--   To deploy to Anvil
--   Start the anvil chain
+- To deploy to Anvil
+- Start the anvil chain
 
 ```
 make deployToAnvil
@@ -43,11 +43,11 @@ or
 
 1. Setup environment variables
 
--   You'll want to set your `SEPOLIA_RPC_URL` in environment variables. You can add them to a `.env` file, similar to what you see in `.env.example`.
+- You'll want to set your `SEPOLIA_RPC_URL` in environment variables. You can add them to a `.env` file, similar to what you see in `.env.example`.
 
 2. Use wallet options to Encrypt Private Keys
 
--   [Private Key Encryption](https://github.com/allwin199/foundry-fundamendals/blob/main/DeploymentDetails.md)
+- [Private Key Encryption](https://github.com/allwin199/foundry-fundamendals/blob/main/DeploymentDetails.md)
 
 Optionally, add your `ETHERSCAN_API_KEY` if you want to verify your contract on [Etherscan](https://etherscan.io/).
 
@@ -62,32 +62,5 @@ make deployToSepolia
 ```
 
 ---
-
-## Demo
-
-[NFT Marketplace Nextjs App](https://nft-marketplace-frontendv1.vercel.app/)  
-[Github](https://github.com/allwin199/nft-marketplace-frontend)
-
-### Marketplace
-
-![Marketplace](./workflow-images/Home.png)
-
----
-
-### List NFT
-
-![Marketplace](./workflow-images/listNft.png)
-
----
-
-### Buy NFT
-
-![Marketplace](./workflow-images/BuyNft.png)
-
----
-
-### Sell NFT
-
-![Marketplace](./workflow-images/Sell.png)
 
 ## Thank You :)
